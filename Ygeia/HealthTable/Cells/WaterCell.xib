@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WaterCell" rowHeight="157" id="KGk-i7-Jjw" customClass="WaterCell" customModule="Ygeia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="156.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle Copy 4" translatesAutoresizingMaskIntoConstraints="NO" id="dH3-aH-nZ7">
+                        <rect key="frame" x="10" y="10" width="362" height="136.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hydration is key , drink at least 2 liter per day" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKd-MC-K45">
+                        <rect key="frame" x="120" y="98" width="238" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="bel-rn-uEh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="dMe-A8-WAn">
+                        <rect key="frame" x="10" y="28.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="kCz-Ns-Rln"/>
+                            <constraint firstAttribute="width" constant="100" id="rCW-oW-2VX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remeber to drink water " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrU-Ve-4ZH">
+                        <rect key="frame" x="120" y="69" width="250.5" height="19"/>
+                        <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="dH3-aH-nZ7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="FMb-Sh-H2Y"/>
+                    <constraint firstItem="xrU-Ve-4ZH" firstAttribute="centerY" secondItem="dMe-A8-WAn" secondAttribute="centerY" id="Ogd-Jh-OwY"/>
+                    <constraint firstItem="dMe-A8-WAn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="VWr-6L-Y7M"/>
+                    <constraint firstItem="dMe-A8-WAn" firstAttribute="centerY" secondItem="dH3-aH-nZ7" secondAttribute="centerY" id="Zso-df-LbP"/>
+                    <constraint firstItem="LKd-MC-K45" firstAttribute="top" secondItem="xrU-Ve-4ZH" secondAttribute="bottom" constant="10" id="fW7-D6-F0r"/>
+                    <constraint firstItem="dH3-aH-nZ7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="jk2-vr-bFD"/>
+                    <constraint firstAttribute="trailing" secondItem="dH3-aH-nZ7" secondAttribute="trailing" constant="10" id="jr1-rk-Ihz"/>
+                    <constraint firstItem="LKd-MC-K45" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="100" id="kXA-Uh-SvO"/>
+                    <constraint firstItem="xrU-Ve-4ZH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="100" id="ksB-q0-m6Q"/>
+                    <constraint firstAttribute="bottom" secondItem="dH3-aH-nZ7" secondAttribute="bottom" constant="10" id="l2b-Xx-2Hd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="182.60869565217394" y="170.42410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle Copy 4" width="600" height="400"/>
+        <image name="water" width="128" height="128"/>
+    </resources>
+</document>

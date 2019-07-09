@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BloodTypeEditCell" rowHeight="96" id="KGk-i7-Jjw" customClass="BloodTypeEditCell" customModule="Ygeia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="486" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="486" height="95.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VvN-v0-Yjk">
+                        <rect key="frame" x="10" y="10" width="466" height="75.5"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1WD-Nu-ONv">
+                                <rect key="frame" x="136" y="10" width="320" height="55.5"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Type" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJ6-eD-g8J">
+                                <rect key="frame" x="10" y="29" width="99.5" height="18"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1WD-Nu-ONv" firstAttribute="top" secondItem="VvN-v0-Yjk" secondAttribute="top" constant="10" id="1bI-Xz-FZB"/>
+                            <constraint firstItem="LJ6-eD-g8J" firstAttribute="centerY" secondItem="VvN-v0-Yjk" secondAttribute="centerY" id="KMA-Yl-tf7"/>
+                            <constraint firstAttribute="trailing" secondItem="1WD-Nu-ONv" secondAttribute="trailing" constant="10" id="hoq-Mp-22X"/>
+                            <constraint firstItem="LJ6-eD-g8J" firstAttribute="leading" secondItem="VvN-v0-Yjk" secondAttribute="leading" constant="10" id="qiI-CX-wMn"/>
+                            <constraint firstAttribute="bottom" secondItem="1WD-Nu-ONv" secondAttribute="bottom" constant="10" id="x8i-1i-TBV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VvN-v0-Yjk" secondAttribute="trailing" constant="10" id="88C-jz-sOV"/>
+                    <constraint firstItem="VvN-v0-Yjk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Cbe-fn-kEg"/>
+                    <constraint firstItem="VvN-v0-Yjk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="OXg-TZ-vu4"/>
+                    <constraint firstAttribute="bottom" secondItem="VvN-v0-Yjk" secondAttribute="bottom" constant="10" id="P8z-vW-bbB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cell" destination="VvN-v0-Yjk" id="6DQ-T6-tTX"/>
+                <outlet property="picker" destination="1WD-Nu-ONv" id="pxc-ZR-58c"/>
+            </connections>
+            <point key="canvasLocation" x="52.173913043478265" y="126.5625"/>
+        </tableViewCell>
+    </objects>
+</document>

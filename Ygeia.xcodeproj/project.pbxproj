@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773456E922AB055B008487AE /* EditLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773456E722AB055B008487AE /* EditLabelCell.swift */; };
+		773456EA22AB055B008487AE /* EditLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773456E822AB055B008487AE /* EditLabelCell.xib */; };
+		773456EE22AC0589008487AE /* BloodTypeEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773456EC22AC0589008487AE /* BloodTypeEditCell.swift */; };
+		773456EF22AC0589008487AE /* BloodTypeEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773456ED22AC0589008487AE /* BloodTypeEditCell.xib */; };
+		773456F222AC189A008487AE /* BigTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773456F022AC189A008487AE /* BigTextCell.swift */; };
+		773456F322AC189A008487AE /* BigTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773456F122AC189A008487AE /* BigTextCell.xib */; };
+		773456F622AD1B16008487AE /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773456F422AD1B16008487AE /* imageCell.swift */; };
+		773456F722AD1B16008487AE /* imageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773456F522AD1B16008487AE /* imageCell.xib */; };
+		773456FE22AD577C008487AE /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773456FD22AD577C008487AE /* NotificationCenter.framework */; };
+		7734570122AD577C008487AE /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734570022AD577C008487AE /* TodayViewController.swift */; };
+		7734570422AD577C008487AE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7734570222AD577C008487AE /* MainInterface.storyboard */; };
+		7734570822AD577C008487AE /* Ygeia Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 773456FC22AD577C008487AE /* Ygeia Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7734570F22AD5F95008487AE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734570E22AD5F95008487AE /* File.swift */; };
+		777AAF2322A539E7003C1EF1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777AAF2222A539E7003C1EF1 /* HealthKit.framework */; };
+		777AAF3522A55F8A003C1EF1 /* CubicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777AAF3322A55F8A003C1EF1 /* CubicCell.swift */; };
+		777AAF3622A55F8A003C1EF1 /* CubicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777AAF3422A55F8A003C1EF1 /* CubicCell.xib */; };
+		777AAF3922A59981003C1EF1 /* WaterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777AAF3722A59981003C1EF1 /* WaterCell.swift */; };
+		777AAF3A22A59981003C1EF1 /* WaterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 777AAF3822A59981003C1EF1 /* WaterCell.xib */; };
+		7781DB4B229EB72F00997FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7781DB4A229EB72F00997FCC /* AppDelegate.swift */; };
+		7781DB50229EB72F00997FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7781DB4E229EB72F00997FCC /* Main.storyboard */; };
+		7781DB53229EB72F00997FCC /* Ygeia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7781DB51229EB72F00997FCC /* Ygeia.xcdatamodeld */; };
+		7781DB55229EB73000997FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7781DB54229EB73000997FCC /* Assets.xcassets */; };
+		7781DB58229EB73000997FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7781DB56229EB73000997FCC /* LaunchScreen.storyboard */; };
+		7781DB66229EB7C800997FCC /* HealthTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7781DB64229EB7C800997FCC /* HealthTable.swift */; };
+		7781DB67229EB7C800997FCC /* HealthTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7781DB65229EB7C800997FCC /* HealthTable.xib */; };
+		7781DB6A229EB8AF00997FCC /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7781DB68229EB8AF00997FCC /* LabelCell.swift */; };
+		7781DB6B229EB8AF00997FCC /* LabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7781DB69229EB8AF00997FCC /* LabelCell.xib */; };
+		7781DB6D229EC10D00997FCC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7781DB6C229EC10D00997FCC /* User.swift */; };
+		77976D7622B100AA00CF0214 /* ContactsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976D7422B100AA00CF0214 /* ContactsTable.swift */; };
+		77976D7722B100AA00CF0214 /* ContactsTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77976D7522B100AA00CF0214 /* ContactsTable.xib */; };
+		77976D7C22B1029E00CF0214 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976D7A22B1029E00CF0214 /* TableViewCell.swift */; };
+		77976D7D22B1029E00CF0214 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77976D7B22B1029E00CF0214 /* TableViewCell.xib */; };
+		77976D8022B1144C00CF0214 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77976D7E22B1144C00CF0214 /* ContactsCell.swift */; };
+		77976D8122B1144C00CF0214 /* ContactsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77976D7F22B1144C00CF0214 /* ContactsCell.xib */; };
+		77BCFA4922B118C400ABFBD8 /* cellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BCFA4722B118C400ABFBD8 /* cellCell.swift */; };
+		77BCFA4A22B118C400ABFBD8 /* cellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77BCFA4822B118C400ABFBD8 /* cellCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7734570622AD577C008487AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7781DB3F229EB72F00997FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773456FB22AD577C008487AE;
+			remoteInfo = "Ygeia Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7734570C22AD577C008487AE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7734570822AD577C008487AE /* Ygeia Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		773456E722AB055B008487AE /* EditLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLabelCell.swift; sourceTree = "<group>"; };
+		773456E822AB055B008487AE /* EditLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditLabelCell.xib; sourceTree = "<group>"; };
+		773456EC22AC0589008487AE /* BloodTypeEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTypeEditCell.swift; sourceTree = "<group>"; };
+		773456ED22AC0589008487AE /* BloodTypeEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodTypeEditCell.xib; sourceTree = "<group>"; };
+		773456F022AC189A008487AE /* BigTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTextCell.swift; sourceTree = "<group>"; };
+		773456F122AC189A008487AE /* BigTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigTextCell.xib; sourceTree = "<group>"; };
+		773456F422AD1B16008487AE /* imageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
+		773456F522AD1B16008487AE /* imageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = imageCell.xib; sourceTree = "<group>"; };
+		773456FC22AD577C008487AE /* Ygeia Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ygeia Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773456FD22AD577C008487AE /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		7734570022AD577C008487AE /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		7734570322AD577C008487AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		7734570522AD577C008487AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7734570D22AD5A62008487AE /* Ygeia Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ygeia Widget.entitlements"; sourceTree = "<group>"; };
+		7734570E22AD5F95008487AE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		777AAF2222A539E7003C1EF1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		777AAF2422A539E7003C1EF1 /* Ygeia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ygeia.entitlements; sourceTree = "<group>"; };
+		777AAF3322A55F8A003C1EF1 /* CubicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicCell.swift; sourceTree = "<group>"; };
+		777AAF3422A55F8A003C1EF1 /* CubicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubicCell.xib; sourceTree = "<group>"; };
+		777AAF3722A59981003C1EF1 /* WaterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCell.swift; sourceTree = "<group>"; };
+		777AAF3822A59981003C1EF1 /* WaterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterCell.xib; sourceTree = "<group>"; };
+		7781DB47229EB72F00997FCC /* Ygeia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ygeia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7781DB4A229EB72F00997FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7781DB4F229EB72F00997FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7781DB52229EB72F00997FCC /* Ygeia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ygeia.xcdatamodel; sourceTree = "<group>"; };
+		7781DB54229EB73000997FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7781DB57229EB73000997FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7781DB59229EB73000997FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7781DB64229EB7C800997FCC /* HealthTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTable.swift; sourceTree = "<group>"; };
+		7781DB65229EB7C800997FCC /* HealthTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthTable.xib; sourceTree = "<group>"; };
+		7781DB68229EB8AF00997FCC /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		7781DB69229EB8AF00997FCC /* LabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelCell.xib; sourceTree = "<group>"; };
+		7781DB6C229EC10D00997FCC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		77976D7422B100AA00CF0214 /* ContactsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTable.swift; sourceTree = "<group>"; };
+		77976D7522B100AA00CF0214 /* ContactsTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTable.xib; sourceTree = "<group>"; };
+		77976D7A22B1029E00CF0214 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		77976D7B22B1029E00CF0214 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		77976D7E22B1144C00CF0214 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		77976D7F22B1144C00CF0214 /* ContactsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCell.xib; sourceTree = "<group>"; };
+		77BCFA4722B118C400ABFBD8 /* cellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellCell.swift; sourceTree = "<group>"; };
+		77BCFA4822B118C400ABFBD8 /* cellCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773456F922AD577C008487AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773456FE22AD577C008487AE /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7781DB44229EB72F00997FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777AAF2322A539E7003C1EF1 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773456EB22AB0565008487AE /* Editing Cells */ = {
+			isa = PBXGroup;
+			children = (
+				773456E722AB055B008487AE /* EditLabelCell.swift */,
+				773456E822AB055B008487AE /* EditLabelCell.xib */,
+				773456EC22AC0589008487AE /* BloodTypeEditCell.swift */,
+				773456ED22AC0589008487AE /* BloodTypeEditCell.xib */,
+			);
+			path = "Editing Cells";
+			sourceTree = "<group>";
+		};
+		773456FF22AD577C008487AE /* Ygeia Widget */ = {
+			isa = PBXGroup;
+			children = (
+				7734570D22AD5A62008487AE /* Ygeia Widget.entitlements */,
+				7734570022AD577C008487AE /* TodayViewController.swift */,
+				7734570222AD577C008487AE /* MainInterface.storyboard */,
+				7734570522AD577C008487AE /* Info.plist */,
+				7734570E22AD5F95008487AE /* File.swift */,
+			);
+			path = "Ygeia Widget";
+			sourceTree = "<group>";
+		};
+		777AAF2122A539E7003C1EF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777AAF2222A539E7003C1EF1 /* HealthKit.framework */,
+				773456FD22AD577C008487AE /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		777AAF4F22AAA63C003C1EF1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				773456EB22AB0565008487AE /* Editing Cells */,
+				7781DB68229EB8AF00997FCC /* LabelCell.swift */,
+				7781DB69229EB8AF00997FCC /* LabelCell.xib */,
+				777AAF3322A55F8A003C1EF1 /* CubicCell.swift */,
+				777AAF3422A55F8A003C1EF1 /* CubicCell.xib */,
+				777AAF3722A59981003C1EF1 /* WaterCell.swift */,
+				777AAF3822A59981003C1EF1 /* WaterCell.xib */,
+				773456F022AC189A008487AE /* BigTextCell.swift */,
+				773456F122AC189A008487AE /* BigTextCell.xib */,
+				773456F422AD1B16008487AE /* imageCell.swift */,
+				773456F522AD1B16008487AE /* imageCell.xib */,
+				77976D7A22B1029E00CF0214 /* TableViewCell.swift */,
+				77976D7B22B1029E00CF0214 /* TableViewCell.xib */,
+				77976D7E22B1144C00CF0214 /* ContactsCell.swift */,
+				77976D7F22B1144C00CF0214 /* ContactsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		777AAF5022AAA65C003C1EF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7781DB6C229EC10D00997FCC /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7781DB3E229EB72F00997FCC = {
+			isa = PBXGroup;
+			children = (
+				7781DB49229EB72F00997FCC /* Ygeia */,
+				773456FF22AD577C008487AE /* Ygeia Widget */,
+				7781DB48229EB72F00997FCC /* Products */,
+				777AAF2122A539E7003C1EF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7781DB48229EB72F00997FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7781DB47229EB72F00997FCC /* Ygeia.app */,
+				773456FC22AD577C008487AE /* Ygeia Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7781DB49229EB72F00997FCC /* Ygeia */ = {
+			isa = PBXGroup;
+			children = (
+				777AAF2422A539E7003C1EF1 /* Ygeia.entitlements */,
+				7781DB5F229EB75300997FCC /* HealthTable */,
+				7781DB4A229EB72F00997FCC /* AppDelegate.swift */,
+				7781DB4E229EB72F00997FCC /* Main.storyboard */,
+				7781DB54229EB73000997FCC /* Assets.xcassets */,
+				7781DB56229EB73000997FCC /* LaunchScreen.storyboard */,
+				7781DB59229EB73000997FCC /* Info.plist */,
+				7781DB51229EB72F00997FCC /* Ygeia.xcdatamodeld */,
+			);
+			path = Ygeia;
+			sourceTree = "<group>";
+		};
+		7781DB5F229EB75300997FCC /* HealthTable */ = {
+			isa = PBXGroup;
+			children = (
+				777AAF5022AAA65C003C1EF1 /* Model */,
+				777AAF4F22AAA63C003C1EF1 /* Cells */,
+				7781DB64229EB7C800997FCC /* HealthTable.swift */,
+				7781DB65229EB7C800997FCC /* HealthTable.xib */,
+				77976D7422B100AA00CF0214 /* ContactsTable.swift */,
+				77976D7522B100AA00CF0214 /* ContactsTable.xib */,
+				77BCFA4722B118C400ABFBD8 /* cellCell.swift */,
+				77BCFA4822B118C400ABFBD8 /* cellCell.xib */,
+			);
+			path = HealthTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773456FB22AD577C008487AE /* Ygeia Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7734570922AD577C008487AE /* Build configuration list for PBXNativeTarget "Ygeia Widget" */;
+			buildPhases = (
+				773456F822AD577C008487AE /* Sources */,
+				773456F922AD577C008487AE /* Frameworks */,
+				773456FA22AD577C008487AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ygeia Widget";
+			productName = "Ygeia Widget";
+			productReference = 773456FC22AD577C008487AE /* Ygeia Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7781DB46229EB72F00997FCC /* Ygeia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7781DB5C229EB73000997FCC /* Build configuration list for PBXNativeTarget "Ygeia" */;
+			buildPhases = (
+				7781DB43229EB72F00997FCC /* Sources */,
+				7781DB44229EB72F00997FCC /* Frameworks */,
+				7781DB45229EB72F00997FCC /* Resources */,
+				7734570C22AD577C008487AE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7734570722AD577C008487AE /* PBXTargetDependency */,
+			);
+			name = Ygeia;
+			productName = Ygeia;
+			productReference = 7781DB47229EB72F00997FCC /* Ygeia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7781DB3F229EB72F00997FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = hisham;
+				TargetAttributes = {
+					773456FB22AD577C008487AE = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7781DB46229EB72F00997FCC = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7781DB42229EB72F00997FCC /* Build configuration list for PBXProject "Ygeia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7781DB3E229EB72F00997FCC;
+			productRefGroup = 7781DB48229EB72F00997FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7781DB46229EB72F00997FCC /* Ygeia */,
+				773456FB22AD577C008487AE /* Ygeia Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773456FA22AD577C008487AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7734570422AD577C008487AE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7781DB45229EB72F00997FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773456EF22AC0589008487AE /* BloodTypeEditCell.xib in Resources */,
+				77BCFA4A22B118C400ABFBD8 /* cellCell.xib in Resources */,
+				77976D7722B100AA00CF0214 /* ContactsTable.xib in Resources */,
+				7781DB58229EB73000997FCC /* LaunchScreen.storyboard in Resources */,
+				7781DB55229EB73000997FCC /* Assets.xcassets in Resources */,
+				77976D7D22B1029E00CF0214 /* TableViewCell.xib in Resources */,
+				773456F722AD1B16008487AE /* imageCell.xib in Resources */,
+				77976D8122B1144C00CF0214 /* ContactsCell.xib in Resources */,
+				773456F322AC189A008487AE /* BigTextCell.xib in Resources */,
+				777AAF3A22A59981003C1EF1 /* WaterCell.xib in Resources */,
+				777AAF3622A55F8A003C1EF1 /* CubicCell.xib in Resources */,
+				773456EA22AB055B008487AE /* EditLabelCell.xib in Resources */,
+				7781DB67229EB7C800997FCC /* HealthTable.xib in Resources */,
+				7781DB6B229EB8AF00997FCC /* LabelCell.xib in Resources */,
+				7781DB50229EB72F00997FCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773456F822AD577C008487AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7734570122AD577C008487AE /* TodayViewController.swift in Sources */,
+				7734570F22AD5F95008487AE /* File.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7781DB43229EB72F00997FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77976D7C22B1029E00CF0214 /* TableViewCell.swift in Sources */,
+				773456E922AB055B008487AE /* EditLabelCell.swift in Sources */,
+				77BCFA4922B118C400ABFBD8 /* cellCell.swift in Sources */,
+				777AAF3522A55F8A003C1EF1 /* CubicCell.swift in Sources */,
+				7781DB66229EB7C800997FCC /* HealthTable.swift in Sources */,
+				773456F222AC189A008487AE /* BigTextCell.swift in Sources */,
+				773456EE22AC0589008487AE /* BloodTypeEditCell.swift in Sources */,
+				77976D8022B1144C00CF0214 /* ContactsCell.swift in Sources */,
+				773456F622AD1B16008487AE /* imageCell.swift in Sources */,
+				777AAF3922A59981003C1EF1 /* WaterCell.swift in Sources */,
+				7781DB53229EB72F00997FCC /* Ygeia.xcdatamodeld in Sources */,
+				7781DB6A229EB8AF00997FCC /* LabelCell.swift in Sources */,
+				77976D7622B100AA00CF0214 /* ContactsTable.swift in Sources */,
+				7781DB6D229EC10D00997FCC /* User.swift in Sources */,
+				7781DB4B229EB72F00997FCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7734570722AD577C008487AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773456FB22AD577C008487AE /* Ygeia Widget */;
+			targetProxy = 7734570622AD577C008487AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7734570222AD577C008487AE /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7734570322AD577C008487AE /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		7781DB4E229EB72F00997FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7781DB4F229EB72F00997FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7781DB56229EB73000997FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7781DB57229EB73000997FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7734570A22AD577C008487AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ygeia Widget/Ygeia Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
+				INFOPLIST_FILE = "Ygeia Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisham.Ygeia.Ygeia-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7734570B22AD577C008487AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ygeia Widget/Ygeia Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
+				INFOPLIST_FILE = "Ygeia Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hisham.Ygeia.Ygeia-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7781DB5A229EB73000997FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7781DB5B229EB73000997FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7781DB5D229EB73000997FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ygeia/Ygeia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
+				INFOPLIST_FILE = Ygeia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisham.Ygeia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7781DB5E229EB73000997FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ygeia/Ygeia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
+				INFOPLIST_FILE = Ygeia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisham.Ygeia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7734570922AD577C008487AE /* Build configuration list for PBXNativeTarget "Ygeia Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7734570A22AD577C008487AE /* Debug */,
+				7734570B22AD577C008487AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7781DB42229EB72F00997FCC /* Build configuration list for PBXProject "Ygeia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7781DB5A229EB73000997FCC /* Debug */,
+				7781DB5B229EB73000997FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7781DB5C229EB73000997FCC /* Build configuration list for PBXNativeTarget "Ygeia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7781DB5D229EB73000997FCC /* Debug */,
+				7781DB5E229EB73000997FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7781DB51229EB72F00997FCC /* Ygeia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7781DB52229EB72F00997FCC /* Ygeia.xcdatamodel */,
+			);
+			currentVersion = 7781DB52229EB72F00997FCC /* Ygeia.xcdatamodel */;
+			path = Ygeia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7781DB3F229EB72F00997FCC /* Project object */;
+}
